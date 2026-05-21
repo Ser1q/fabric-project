@@ -45,35 +45,29 @@ External Sources
 ```
 fabric_project/
 ├── notebooks/
-│   ├── 00_workspace_validation.py  
 │   ├── bronze/                       
 │   ├── silver/                     
 │   └── gold/                         
-├── pipelines/                        # Fabric pipeline JSON definitions
-├── ge_suites/                        # Great Expectations suites
-├── grafana_dashboards/               # Grafana dashboard JSON + provisioning
-├── bot/                              # Telegram bot
+├── pipelines/                        
+├── ge_suites/                        
+├── grafana_dashboards/               
+├── bot/                             
 ├── config/
-│   └── settings.py                  # Pydantic settings
+│   └── settings.py                  
 ├── scripts/
-│   └── init_timescaledb.sql         # TimescaleDB hypertable setup
+│   └── init_timescaledb.sql         
 ├── docs/
 │   ├── secret_setup.md
 │   └── data_dictionary.md           
 ├── .env.example                     
-├── docker-compose.yml               # TimescaleDB + Grafana local dev
+├── docker-compose.yml              
 └── requirements.txt
 ```
 
 ---
 
 ## API keys needed
-
-| API | Free tier | Link |
-|-----|-----------|------|
-| OpenAQ | Yes, unlimited | https://api.openaq.org/register |
-| OpenWeatherMap | 60 calls/min | https://openweathermap.org/api |
-| Telegram Bot | Free | https://t.me/BotFather |
+OpenAQ, OpenWeatherMap, Telegram Bot
 
 ---
 
